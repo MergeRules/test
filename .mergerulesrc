@@ -9,6 +9,6 @@ pr_rules:
       - attribute: approvedCount
         operator: greaterThanOrEqual
         value: 1
-      - attribute: linesChanged
+      - attribute: linesAdded
         operator: lessThanOrEqual
         value: 1

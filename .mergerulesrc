@@ -5,6 +5,9 @@ pr_rules:
         operator: equal
         not: true
         value: documentation
+      - attribute: linesChanged
+        operator: lessThanOrEqual
+        value: 1
     require:
       - attribute: approvedCount
         operator: greaterThanOrEqual
